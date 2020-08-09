@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+body{
+	font-family: 'Inter', sans-serif;
+	color: #3c3768;
+}
+header{
+	position: relative;
+}
+
+.banner-img{
+	position: absolute;
+}
+
+
+.search-icon .dropdown-toggle::after {
+    content: none;
+}
+.search-icon button{
+	background: rgb(157,88,110); 
+	background: -moz-linear-gradient(left,  #9e596f 0%, #ea7274 100%); 
+	background: -webkit-linear-gradient(left,  #9e596f 0%,#ea7274 100%); 
+	background: linear-gradient(to right,  #9e596f 0%,#ea7274 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e596f', endColorstr='#ea7274',GradientType=1 ); 
+    border-radius: 50%;
+    color: #fff;
+    padding: 0 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 0 10px #9d586e;
+}
+.search-icon button:hover{
+	color: #fff;
+}
+.search-icon .dropdown-toggle::after{
+	content: none;
+}
+.search-icon .dropdown-menu{
+	top: 100%;
+	right: 0;
+	left: inherit;
+	padding: 0 0 !important;
+}
+.navbar-toggler{
+	border-color: rgb(0 0 0 / 0%) !important;
+}
+.navbar-toggler span{
+	width: 30px;
+	height: 3px;
+	background: #fff;
+	display: block;
+	margin: 5px 0;
+	transition-duration: 0.03s;
+}
+.navbar-toggler span:nth-child(even) {
+	width: 20px;
+}
+.navbar-toggler:hover span{
+	width: 30px;
+}
+.navbar-toggler:focus {
+	outline: 0 dotted;
+	outline: 0 auto -webkit-focus-ring-color;
+}
+.banner-content{
+	max-width: 450px;
+	margin-top: 200px;
+}
+.banner-content h1{
+	font-size: 45px;
+	color: #3c3768;
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+}
+.banner-content p{
+	line-height: 1.8;
+	font-size: 18px;
+}
+.banner-content h5{
+	line-height: 1.8;
+	font-size: 20px;
+}
+.form-inline div{
+	margin-right: 10px;
+}
+.form-inline  input{
+	padding: 10px 20px;
+	height: auto;
+	border: 0;
+	box-shadow: 0 10px 25px #fa78754d;
+	font-size: 20px;
+	font-weight: 100;
+}
+.form-inline button{
+	background: rgb(157,88,110); 
+	background: -moz-linear-gradient(left,  #9e596f 0%, #ea7274 100%); 
+	background: -webkit-linear-gradient(left,  #9e596f 0%,#ea7274 100%); 
+	background: linear-gradient(to right,  #9e596f 0%,#ea7274 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e596f', endColorstr='#ea7274',GradientType=1 ); 
+    padding: 10px 20px;
+	height: auto;
+	border: 0;
+	box-shadow: 0 10px 25px #fa78754d;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+
+}
+.form-inline input:focus,
+.form-inline button:focus{
+	outline: none;
+	border-color: #80bdff00;
+	box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%);
+}
+.form-inline button:hover{
+	color: #fff;
+
+
+}
+.service-section{
+	position: relative;
+	padding: 200px 0;
+
+	
+}
+.service-section img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    max-width: 60%;
+}
+.service-section .row{}
+.service-section .row .service-box{
+	box-shadow:0 10px 25px #fa78754d;
+	padding: 40px;
+	background: #ffffffa8;
+
+}
+.service-section .row> div h2{
+	font-size: 32px;
+	font-weight: 600;
+
+}
+.service-section .row> div p{
+	font-size: 18px;
+	line-height: 1.7;
+}
+.service-section .row> div a{
+	color: #fa7875;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: block;
+	font-size: 15px;
+}
+.service-section .row> div a i{
+	transition-duration: 0.3s;
+
+}
+.service-section .row> div a:hover i{
+	transform: translateX(10px);
+}
+.service-section .row> div a:hover{
+	text-decoration: none;
+}
+.align-right img{
+	left:auto;
+	right:0;	
+}
+footer{
+	position: relative;
+}
+footer > img{
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+
+}
+footer .signpu{
+	background-image: url(../images/form-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+	color: #fff;
+}
+.text{
+	font-size: 18px;
+	line-height: 1.7;
+	margin-top: 25px;
+}
+.list-unstyled{
+	margin-top: 25px;
+}
+.list-unstyled li{
+	margin-top: 5px;
+}
+.list-unstyled li a{
+	font-size: 16px;
+	
+}
+.social{
+	margin-top: 20px;
+}
+.social li{}
+.social li a{
+	background-color: #322e57;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px ;
+	display: block;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.social li a:hover {}
